@@ -1,0 +1,9 @@
+#!/bin/bash
+# Filter the string skype in the list of all process at the system
+ps aux | grep skype
+# Id of the process
+pidof skype
+#pkill nemo
+# don't work pidof skype | kill
+# kill (id process)
+kill $(pidof skype)
