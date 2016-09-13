@@ -1,0 +1,9 @@
+Run on a random path
+cmd /c "$(FULL_CURRENT_PATH)"
+
+If you want it to run in the path of the file: 
+cmd /c "cd $(CURRENT_DIRECTORY) && $(FULL_CURRENT_PATH)"
+
+To run batch within its parent directorty, you have to pass /d param to cd to change drive letter 
+if needed and and escape paths(if contains spaces).
+cmd /c "cd /d ""$(CURRENT_DIRECTORY)"" && ""$(FULL_CURRENT_PATH)"""
