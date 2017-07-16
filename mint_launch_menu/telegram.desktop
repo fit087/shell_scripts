@@ -1,0 +1,8 @@
+# Copy this file on /usr/share/applications/telegram.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Name=Telegram
+Exec=/home/correa/Documents/Softwares/Portables/Telegram/Telegram %U
+Type=Application
+Terminal=false
+Categories=Network;Application;
