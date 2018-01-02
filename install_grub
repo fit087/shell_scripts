@@ -1,0 +1,3 @@
+chroot /mnt/hdd /bin/bash
+apt install -y grub
+exit
