@@ -9,3 +9,5 @@ set tabstop=4
 set shiftwidth=4
 " Color Scheme
 colors ron
+" colors torte
+" colors desert
