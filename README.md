@@ -10,4 +10,5 @@
 
 `mv !(subfolder) subfolder` [move all files in current folder to subfolder][1]
 
+<!-- Links' List -->
 [1]:https://askubuntu.com/questions/91740/how-to-move-all-files-in-current-folder-to-subfolder "How to move all files in current folder to subfolder?"
