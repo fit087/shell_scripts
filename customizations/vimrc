@@ -11,3 +11,5 @@ set shiftwidth=4
 colors ron
 " colors torte
 " colors desert
+" Highlighting code
+syntax on
