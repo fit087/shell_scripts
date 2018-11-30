@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=36
+#PBS -l walltime=10:00:00
+#PBS -j oe
+#PBS -V
+#PBS -M adolfo.correa@lamcso.coppe.ufrj.br
+############## PBS -M romulo.silva@nacad.ufrj.br
+# cd /home/tng/tng7/cavityedgecfd
+mpirun -np 36 edgecfdsolver-mpi
