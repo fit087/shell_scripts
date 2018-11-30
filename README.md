@@ -8,7 +8,22 @@
 
 `zip -r folder{.zip,}` compress a folder in zip format
 
+`less zipfile.zip` list of files within a zip file
+
+`tar xvzf foo.tar.gz` decompress a gzip file
+
+`tar xvjf foo.tar.bzip` decompress a bzip2 file
+
 `mv !(subfolder) subfolder` [move all files in current folder to subfolder][1]
+
+### Conect to the server
+
+```bash
+ssh user@domain:port
+ssh user@ip:port
+ssh -X user@domain
+ssh -Y user@domain
+```
 
 <!-- Links' List -->
 [1]:https://askubuntu.com/questions/91740/how-to-move-all-files-in-current-folder-to-subfolder "How to move all files in current folder to subfolder?"
