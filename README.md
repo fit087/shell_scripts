@@ -19,12 +19,12 @@
 #### Fasd
 Fasd keeps track of files and directories you have accessed, so that you can quickly reference them in the command line.
 
-| Commands                  | Description                       |
-|---------------------------|-----------------------------------|
-| z folder                  | Jump to the folder                |
-| v text_file               | open in vim                       |
-| mv update.html `d folder` | d retrieve the path of the folder |
-| cp `f file` .             | f retrieve the path to the file   |
+| Commands                        | Description                       |
+|---------------------------------|-----------------------------------|
+| `z folder`                      | Jump to the folder                |
+| `v text_file`                   | open in vim                       |
+| ``mv update.html `d folder` ``  | d retrieve the path of the folder |
+| ``cp `f file` .``               | f retrieve the path to the file   |
 
 ### Connect to the server
 
