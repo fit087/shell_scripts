@@ -94,3 +94,34 @@ set hlsearch
 set laststatus=2
 set background=dark
 colorscheme desert
+
+
+Gerenciador de Plugins: vim-plug
+Instalação
+```Bash
+Bashcurl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+Uso básico em ~/.vimrc
+```.vimrc
+vimcall plug#begin()
+Plug 'preservim/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-fugitive'
+call plug#end()
+```
+
+Instalar: :PlugInstall
+Atualizar: :PlugUpdate
+Limpar: :PlugClean
+
+Plugins Recomendados
+
+NERDTree: Navegador de arquivos em árvore
+nnoremap <C-n> :NERDTreeToggle<CR>
+vim-airline: Barra de status bonita
+vim-fugitive: Comandos Git (:Gstatus, :Gdiff, :Gblame)
+CtrlP ou fzf.vim: Busca fuzzy de arquivos
+vim-surround: Editar surroundings (ysiw", ds", cs"')
+vim-commentary: Comentar/descomentar (gcc)
+gruvbox ou dracula: Temas bonitos
