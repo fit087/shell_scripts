@@ -112,17 +112,17 @@ Plug 'tpope/vim-fugitive'
 call plug#end()
 ```
 
-Instalar: :PlugInstall
-Atualizar: :PlugUpdate
-Limpar: :PlugClean
+- Instalar: :PlugInstall
+- Atualizar: :PlugUpdate
+- Limpar: :PlugClean
 
 Plugins Recomendados
 
-NERDTree: Navegador de arquivos em árvore
-nnoremap <C-n> :NERDTreeToggle<CR>
-vim-airline: Barra de status bonita
-vim-fugitive: Comandos Git (:Gstatus, :Gdiff, :Gblame)
-CtrlP ou fzf.vim: Busca fuzzy de arquivos
-vim-surround: Editar surroundings (ysiw", ds", cs"')
-vim-commentary: Comentar/descomentar (gcc)
-gruvbox ou dracula: Temas bonitos
+- NERDTree: Navegador de arquivos em árvore
+- nnoremap <C-n> :NERDTreeToggle<CR>
+- vim-airline: Barra de status bonita
+- vim-fugitive: Comandos Git (:Gstatus, :Gdiff, :Gblame)
+- CtrlP ou fzf.vim: Busca fuzzy de arquivos
+- vim-surround: Editar surroundings (ysiw", ds", cs"')
+- vim-commentary: Comentar/descomentar (gcc)
+- gruvbox ou dracula: Temas bonitos
