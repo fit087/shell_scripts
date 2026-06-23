@@ -94,6 +94,7 @@ set hlsearch
 set laststatus=2
 set background=dark
 colorscheme desert
+```
 
 
 Gerenciador de Plugins: vim-plug
